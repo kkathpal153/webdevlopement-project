@@ -1,0 +1,46 @@
+body{
+    height: 100%;
+    background-color: #CCCCCC;
+}
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+}
+footer {
+    background-color: black;
+    padding: 25px;
+    color: gainsboro;
+}
+.btn-default{
+    background-color: #0099CC;
+    border-color: #0099CC;
+    color: white;
+}
+.btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open .dropdown-toggle.btn-default {
+    color: #CCCCCC;
+    background-color: #336699;
+    border-color: #336699;
+}
+.login{
+    border-radius: 4px;
+    padding: 20px;
+    background-color: white;
+}
+.col-center-block{
+    float: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.bg{
+    padding: 50px;
+}
+.row{
+    height:100%;
+}
+
+pre {
+    overflow: auto;
+    word-wrap: normal;
+    white-space: pre;
+}

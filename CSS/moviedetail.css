@@ -1,0 +1,89 @@
+body{
+    height: 100%;
+    background-color: white;
+}
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+}
+footer {
+    background-color: black;
+    padding: 25px;
+    color: gainsboro;
+}
+.btn-default{
+    background-color: #0099CC;
+    border-color: #0099CC;
+    color: white;
+}
+.btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open .dropdown-toggle.btn-default {
+    color: #CCCCCC;
+    background-color: #336699;
+    border-color: #336699;
+}
+.login{
+    border-radius: 4px;
+    padding: 20px;
+    background-color: white;
+}
+.col-center-block{
+    float: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.bg-white{
+    background-color: white;
+}
+
+.video {
+    max-width: 100%;
+}
+.row {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display:         flex;
+    flex-wrap: wrap;
+}
+.row > [class*='col-'] {
+    display: flex;
+    flex-direction: column;
+}
+
+pre {
+    overflow: auto;
+    word-wrap: normal;
+    white-space: pre;
+}
+.movie-title{
+    margin-bottom: 0px;
+}
+.movie-vote{
+    color: #0d6aad;
+    font-size: xx-large;
+
+}
+.movie-overview{
+    font-size: large;
+    margin: 0px;
+}
+.movie-genres-title{
+    margin: 0px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.col-centered{
+    margin: 0 auto;
+}
+
+.center-block {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}

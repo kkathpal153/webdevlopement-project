@@ -1,0 +1,62 @@
+/*custom font*/
+
+.row{
+    text-align: center;
+    font-size: large;
+}
+#myCarousel{
+    padding-left: 50px;
+    padding-right: 50px;
+
+}
+
+.jumbotron{
+    background-size: contain;
+    height: 550px;
+    width:100%;
+    font-size:60px;
+    color:#ffffff;
+    background:url("../Image/Indexbackground.jpg");
+    background-size: 100% 500px;
+}
+
+.btn {
+    width: 100px;
+    background: #27AE60;
+    font-weight: bold;
+    color: white;
+    border: 0 none;
+    border-radius: 1px;
+    cursor: pointer;
+    padding: 10px 5px;
+    margin: 10px 5px 10px 20px;
+}
+.btn:hover, .btn:focus {
+    border: 1px solid #333;
+    background-color: #fff;
+    color: #000;
+}
+#notice{
+    padding: 160px;
+}
+#header{
+    font-family: Intro-Inline;
+    font-size: 60px;
+    text-align: center;
+}
+.carousel-indicators .active {
+
+    background-color: orange;
+}
+.carousel-indicators li{
+
+    background-color: gray;
+}
+@font-face {
+    font-family:"Intro-Inline";
+    src:url("../fonts/Intro_Inline.eot") format("eot"),
+    url("../fonts/Intro_Inline.woff") format("woff"),
+    url("../fonts/Intro_Inline.ttf") format("truetype"),
+    url("../fonts/Intro_Inline.svg") format("svg");
+    font-weight:normal;font-style:normal;
+}

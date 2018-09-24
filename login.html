@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="CSS/login.css">
+    <script src="JS/validator.js" type="text/javascript"></script>
+
+    <title>MovieBuff - Login</title>
+
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.php">MovieBuff</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+
+                <li class="active"><a href="index.php">Home</a></li>
+                <li class="disabled"><a href="#" >Recommendation</a></li>
+                <li ><a href="watchlist.php">Watch List</a></li>
+                <li><a href="map.php">Cinema</a></li>
+                <li><a href="search.php"><span class="glyphicon glyphicon-search"></span> Search</a></li>
+            </ul>
+        </div>
+
+    </div>
+</nav>
+
+<div class="container-fluid bg">
+    <div class="row">
+        <div class="col-sm-6 col-md-3 col-xs-12 col-center-block login">
+            <div class="text-center">
+
+                <img class="img-circle" src="Image/photo.png" alt="Image">
+            </div>
+
+            <br>
+
+            <form name="loginform" method="post" onsubmit="return validateForm()" action="login.php">
+                <div class="form-group">
+                    <label for="email">Username</label>
+                    <input type="email" class="form-control" name="email" id="email" placeholder="Please input your email...">
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" class="form-control" name="password" id="password" placeholder="Please input your password...">
+                </div>
+                <br>
+
+                <button type="submit" class="btn btn-default btn-block">Party begins</button>
+            </form>
+            <br>
+
+
+            <p>Do not have an account? <a href="register.html">Register</a></p>
+
+        </div>
+    </div>
+</div><br>
+
+
+<footer class="container-fluid text-center navbar-fixed-bottom">
+    <p>© 2018 Dalhousie Pandas. All rights reserved.</p>
+</footer>
+
+
+</body>
+</html>
